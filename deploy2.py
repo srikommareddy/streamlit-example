@@ -4,7 +4,7 @@
 # In[1]:
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 # In[3]:
 
 st.title("Machine Learning App")
