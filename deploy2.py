@@ -41,11 +41,11 @@ df = pd.read_csv("mtcars.csv")
 cars = st.sidebar.button("cars data")
 if cars:
       st.write(df)
-      fig,ax = plt.subplots()
-      #plt.boxplot(df["mpg"])
-      plt.hist(df["mpg"])
-      st.pyplot(fig)
-      plt.show()
+      # fig,ax = plt.subplots()
+      # plt.boxplot(df["mpg"])
+      # plt.hist(df["mpg"])
+      # st.pyplot(fig)
+      # plt.show()
         
 # In[ ]:
 
